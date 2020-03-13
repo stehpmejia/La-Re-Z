@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	 <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner"> 
+				<div class="left"><a href="#" class="link"><i class="material-icons">menu</i></a></div>
+              <div class="title">Menú</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <!--<h2 class="block-title">Titulo de Contenido</h2> <!-- Siempre los titulos seran block-title -->
+			 <!--<div class="block block-strong"> <!-- Siempre el contenido sera block -->
+			 	<!-- Texto de contenido
+			 </div>-->
+			  <article class="menu bg-entrada">
+				  <a href="/entradas/">
+				  <div class="overlay"></div>
+				<div class="texto">
+			  	<h2>Entradas</h2> 
+				</div>
+				</a>
+			  </article>
+			  <article class="menu bg-desayuno">
+				  <a href="/desayunos/">
+				  <div class="overlay"></div>
+				<div class="texto">
+			  	<h2>Desayunos</h2>
+				</div>
+				  </a>
+			  </article>
+			  <article class="menu bg-tortas">
+				  <a href="/tortas/">
+				  <div class="overlay"></div>
+				<div class="texto">
+			  	<h2>Tortas</h2>
+				</div>
+				  </a>
+			  </article>
+			  <article class="menu bg-tacos">
+				  <a href="/tacos/">
+				  <div class="overlay"></div>
+				<div class="texto">
+			  	<h2>Tacos</h2> 
+				</div>
+				  </a>
+			  </article>
+			  <article class="menu bg-combos">
+				  <a href="/combos/">
+				  <div class="overlay"></div>
+				<div class="texto">
+			  	<h2>Combos</h2>
+				</div>
+				</a>
+			  </article>
+          </div>
+        </section>
+		  
+      </div>
+    </div>
+	<div id="footer">
+	bla
+	</div>
+	
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>
+</body>
+</html>
