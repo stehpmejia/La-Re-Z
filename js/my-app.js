@@ -1,7 +1,7 @@
 // Initialize your app
 var myApp = new Framework7({
 	root:'#app',
-	theme: 'ios', //ios, md, auto
+	theme: 'md', //ios, md, auto
     modalTitle: 'App La Re-Z', 	//title for modals
 	panel: {
     	swipe: 'left',
@@ -40,6 +40,11 @@ var myApp = new Framework7({
 		path: '/combos/',
     	url: 'combos.html',
     	name: 'combos',
+  		},
+		{
+		path: '/nosotros/',
+    	url: 'nosotros.html',
+    	name: 'nosotros',
   		}
 	]
 });

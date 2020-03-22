@@ -7,13 +7,84 @@
 <link href="css/framework7.min.css" rel="stylesheet">
 <link href="css/material-icons.css" rel="stylesheet">
 <link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="color-theme-black">
 	 <!-- App root element -->
     <div id="app">
       <!-- Statusbar overlay -->
       <div class="statusbar"></div>
+	
+			<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Menú Navegación</h3>
+			<div class="block">
+				<article class="list">
+					<ul>
+						<li>
+							<a href="/nosotros/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-users"></i>
+								</div>
+								<div class="item-inner">
+								  Nosotros
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/entradas/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-utensils"></i>
+								</div>
+								<div class="item-inner">
+								  Entradas
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/desayunos/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-bread-slice"></i>
+								</div>
+								<div class="item-inner">
+									Desayunos
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/tortas/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-hamburger"></i>
+								</div>
+								<div class="item-inner">
+									Tortas
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/tacos/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-bacon"></i>
+								</div>
+								<div class="item-inner">
+									Tacos
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/combos/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-utensils"></i>
+								</div>
+								<div class="item-inner">
+									Combos
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+			</div>
+		</section>
 
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main view-init">
@@ -23,7 +94,7 @@
           <!-- Top Navbar -->
           <nav class="navbar">
             <div class="navbar-inner"> 
-				<div class="left"><a href="#" class="link"><i class="material-icons">menu</i></a></div>
+				<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
               <div class="title">Menú</div>
             </div>
           </nav>
@@ -74,14 +145,12 @@
 				</div>
 				</a>
 			  </article>
+			  
           </div>
         </section>
 		  
       </div>
     </div>
-	<div id="footer">
-	bla
-	</div>
 	
 <script src="js/framework7.min.js"></script>
 <script src="js/my-app.js"></script>

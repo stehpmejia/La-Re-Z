@@ -8,6 +8,10 @@ body{
 p{
 	margin: 5px 0;
 }
+
+h2{
+	margin: 5px 0;
+}
 .menu{
 	position: relative;
 	text-align: center;
@@ -21,7 +25,7 @@ p{
 	margin-top: 50px;
 }
 .bg-entrada{
-	background-image: url("../img/nachos.jpg");
+	background-image: url("../img/nachos.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -43,53 +47,54 @@ p{
 }
 .texto-menu{
 	position:absolute;
-	width: 100%;
+	width: 90%;
 	bottom: 0;
 	background-color: #fba92c;
 	text-align: left;
-	padding-left: 5%;
+	padding: 2px 5%;
 	font-size: 12px;
 	color: #fff;
 	font-weight: 200;
 }
 .precio-menu{
 	position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background-color: #000;
-    padding: 10px 0;
+    padding: 10px 10px;
+	margin: -20px 0;
     bottom: 25px;
     right: 30px;
     color: #fff;
     display: grid;
     align-content: center;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 16px;
 }
 .bg-desayuno{
-	background-image: url("../img/burrita.jpg");
+	background-image: url("../img/burrita.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-top: 25%;
 }
 .bg-tortas{
-	background-image: url("../img/monster.jpg");
+	background-image: url("../img/monster.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-top: 25%;
 }
 .bg-tacos{
-	background-image: url("../img/tacoss.jpg");
+	background-image: url("../img/tacosres.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-top: 25%;
 }
 .bg-combos{
-	background-image: url("../img/monster.jpg");
+	background-image: url("../img/dupla.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -101,7 +106,7 @@ p{
 }
 
 .hero-entrada{
-	background-image: url("../img/nachos.jpg");
+	background-image: url("../img/nachos.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -114,7 +119,7 @@ p{
 	font-weight: 600;
 	color: #fff;
 	margin-bottom: 0;
-	padding: 10% 0;
+	padding: 17% 0 0 0;
 }
 .hero-entrada p{
 	font-size: 12px;
@@ -131,7 +136,7 @@ p{
 	position: relative;
 }
 .hero-pollo{
-	background-image: url("../img/conpollo.jpg");
+	background-image: url("../img/conpollo.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -140,7 +145,7 @@ p{
 	position: relative;
 }
 .hero-aros{
-	background-image: url("../img/aros.jpg");
+	background-image: url("../img/aros.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -149,7 +154,7 @@ p{
 	position: relative;
 }
 .hero-nachos{
-	background-image: url("../img/nachos.jpg");
+	background-image: url("../img/nachos.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -158,7 +163,7 @@ p{
 	position: relative;
 }
 .hero-alitas{
-	background-image: url("../img/alitas.jpg");
+	background-image: url("../img/alitas.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -168,7 +173,7 @@ p{
 }
 
 .hero-bf{
-	background-image: url("../img/burrita.jpg");
+	background-image: url("../img/burrita.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -189,7 +194,7 @@ p{
 	color: #E4CEAC;
 }
 .hero-tortilla{
-	background-image: url("../img/burrita.jpg");
+	background-image: url("../img/tortillitas.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -198,7 +203,7 @@ p{
 	position: relative;
 }
 .hero-burrita{
-	background-image: url("../img/burrita.jpg");
+	background-image: url("../img/burrita.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -207,7 +212,7 @@ p{
 	position: relative;
 }
 .hero-baleada{
-	background-image: url("../img/gringas.jpg");
+	background-image: url("../img/baleadas.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -216,7 +221,7 @@ p{
 	position: relative;
 }
 .hero-gringa{
-	background-image: url("../img/gringas.jpg");
+	background-image: url("../img/gringas.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -237,7 +242,7 @@ p{
 }
 
 .hero-tortas{
-	background-image: url("../img/monster.jpg");
+	background-image: url("../img/monster.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -258,7 +263,7 @@ p{
 	color: #E4CEAC;
 }
 .hero-monster{
-	background-image: url("../img/monster.jpg");
+	background-image: url("../img/monster.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -267,7 +272,7 @@ p{
 	position: relative;
 }
 .hero-cubano{
-	background-image: url("../img/torta.jpg");
+	background-image: url("../img/cubano.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -276,7 +281,7 @@ p{
 	position: relative;
 }
 .hero-cochinita{
-	background-image: url("../img/tortass.jpg");
+	background-image: url("../img/tortass.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -285,7 +290,7 @@ p{
 	position: relative;
 }
 .hero-pechuga{
-	background-image: url("../img/monster.jpg");
+	background-image: url("../img/pechu.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -298,6 +303,138 @@ p{
 	width: 100%;
 	bottom: 0;
 	background-color: #e64738;
+	text-align: left;
+	padding-left: 5%;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 200;
+}
+.hero-tacos{
+	background-image: url("../img/tacoss.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+.hero-tacos h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 10% 0;
+}
+.hero-tacos p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #E4CEAC;
+}
+.hero-rez{
+	background-image: url("../img/tacoss.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+.hero-polluelos{
+	background-image: url("../img/tacos.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+.hero-gorditos{
+	background-image: url("../img/tacoscerdo.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+
+.texto-menu-tc{
+	position:absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #f05323;
+	text-align: left;
+	padding-left: 5%;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 200;
+}
+.hero-combos{
+	background-image: url("../img/dupla.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+.hero-combos h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 10% 0;
+}
+.hero-combos p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #E4CEAC;
+}
+.hero-dupla{
+	background-image: url("../img/dupla.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+.hero-pami{
+	background-image: url("../img/combo2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+.hero-nosotros{
+	background-image: url("../img/somos.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	text-align: center;
+	position: relative;
+}
+
+.hero-nosotros h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 17% 0 0 0;
+}
+.hero-nosotros p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #E4CEAC;
+}
+.texto-menu-cm{
+	position:absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #50b963;
 	text-align: left;
 	padding-left: 5%;
 	font-size: 12px;
@@ -331,4 +468,102 @@ p{
 	margin-bottom: 2px 0;
 }
 
+.navbar,
+.toolbar{
+	background-color: #000 !important;
+}
 
+.btn-negro{
+	background-color: #fffs!important;
+	color: #000 !important;
+	display: block !important;
+	text-align: center;
+	width: 50% !important;
+	border-radius: 0 !important;
+	margin-left: 25%;
+}
+
+
+
+
+.popup-confirm{
+	color: #ccc;
+	text-align: center;
+}
+.icon-done{
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border-radius: 100%;
+	background-color: #c9f4c9;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+.icon-done i{
+	font-size: 60px;
+}
+
+#info {
+	background-color: #000;
+}
+#info .contenido{
+	color: #fff;
+	text-align: center;
+	font-weight: 200;
+	text-transform: capitalize;
+}
+#info .img{
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	padding-bottom: 10%;
+}
+
+#info .contenido h2{
+	color: #fff;
+	text-align: left;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#info .contenido .nombres{
+	color: #fff;
+	text-align: left;
+	font-weight: 200;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+#prep .ig{
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+#prep .fb{
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+#prep .wha{
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-size: 30px;
+	margin-left: 20%;
+}
+#prep .item-media{
+	font-size: 45px;
+	margin-left: 20%;
+	color: #fff;
+}
+
+.md .navbar~* .page-content, .md .navbar~.page-content {
+	background-color: #000;
+	padding-top: 45px;
+}
