@@ -45,6 +45,16 @@ var myApp = new Framework7({
 		path: '/nosotros/',
     	url: 'nosotros.html',
     	name: 'nosotros',
+  		},
+		{
+		path: '/dupla/',
+    	url: 'dupla.html',
+    	name: 'dupla',
+  		},
+		{
+		path: '/pami/',
+    	url: 'pami.html',
+    	name: 'pami',
   		}
 	]
 });
